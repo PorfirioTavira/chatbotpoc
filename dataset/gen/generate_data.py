@@ -41,7 +41,7 @@ def main():
             
             # Write the expression to the file in a textual format
             # For neatness, format numbers to two decimal places
-            f.write(f"{a:.2f} {operator_text[op]} {b:.2f} = {result:.2f}\n")
+            f.write(f"{a} {op} {b} = {result}\n")
 
 if __name__ == "__main__":
     main()
