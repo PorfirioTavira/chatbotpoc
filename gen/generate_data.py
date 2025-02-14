@@ -15,7 +15,7 @@ def main():
     # List of operators from which to choose
     operators = list(operator_text.keys())
     
-    with open("output.txt", "w") as f:
+    with open("../arithmatic.txt", "w") as f:
         for _ in range(NUM_EXPRESSIONS):
             # Randomly pick an operator
             op = random.choice(operators)
