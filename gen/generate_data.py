@@ -1,7 +1,7 @@
 import random
 
 # Set how many expressions you want:
-NUM_EXPRESSIONS = 30
+NUM_EXPRESSIONS = 30000
 
 def main():
     # Define the textual representation of operators
